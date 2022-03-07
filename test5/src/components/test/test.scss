@@ -1,0 +1,23 @@
+.inputBlock{
+  display: flex;
+  input{
+    border: 1px solid black;
+    font-size: 25px;
+    padding: 5px 10px;
+    border-radius: 25px;
+
+  }
+  button{
+    font-size: 25px;
+    background: chartreuse;
+    width: 100px;
+    padding: 5px;
+    border-radius: 25px;
+  }
+}
+.wordsBlock{
+  display: flex;
+    .word{
+      text-transform: capitalize;
+    }
+}
